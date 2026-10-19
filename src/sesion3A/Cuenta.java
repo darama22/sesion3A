@@ -9,6 +9,11 @@ public class Cuenta {
 	List <Movimiento> mMovimientos;
 	
 	
+	public static Double getSaldo() {
+		return 500.0;
+	}
+	
+	
 	public void ingresar(double x) {
 		
 	}

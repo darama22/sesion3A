@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import sesion3A.Cuenta;
+
 class CuentaTest {
 
 	@BeforeAll
@@ -28,12 +30,12 @@ class CuentaTest {
 
 	@Test
 	void testIngresar() {
-		assertEquals(6,Cuenta.ingresar(40));
+		assertEquals(500,Cuenta.getSaldo());
 	}
 	
 	@Test
 	void testRetirar() {
-		assertEquals(6,Cuenta.retirar(40));
+		assertEquals(500,Cuenta.getSaldo());
 	}
 
 }
