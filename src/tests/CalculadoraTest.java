@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import sesion3A.Calculadora;
+
 class CalculadoraTest {
 
 	@BeforeAll
@@ -26,10 +28,7 @@ class CalculadoraTest {
 	void tearDown() throws Exception {
 	}
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+	
 
 	
 	@Test
